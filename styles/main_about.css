@@ -1,0 +1,52 @@
+main {
+  overflow: auto;
+}
+
+body {
+  margin-bottom: 100px;
+}
+
+.content {
+  padding-right: 8%;
+  padding-left: 8%;
+  padding-top: 120px;
+  box-sizing: border-box;
+  padding-bottom: 200px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.content-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.profilepic {
+  margin-top: 20px;
+  max-width: 80%;
+}
+
+.profilepic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-text p {
+  padding: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.title-about {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(30, 40, 50);
+}
