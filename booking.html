@@ -21,7 +21,7 @@
     <header>
         <div class="header-content">
             <div class="left-side">
-                <img class="logo" src="images/logo.png" alt="logo">
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
                 <div class="site-name">KOPE ÁLLATORVOSI RENDELŐ</div>
             </div>
             <nav class="navbar">
@@ -33,7 +33,6 @@
                 <ul class="nav_links" id="nav_links">
                     <li><a href="index.html">Kezdőlap</a></li>
                     <li><a href="about.html">Bemutatkozás</a></li>
-                    <li><a href="prices.html">Árak</a></li>
                     <li><a href="openinghours.html">Nyitvatartás</a></li>
                     <li><a href="contact.html">Kapcsolat</a></li>
                 </ul>
@@ -42,27 +41,25 @@
     </header>
     <main>
       <div class="container">
-        <h1>Veterinary Practice Appointment Booking</h1>
-        
-        <!-- Calendar view of free appointments -->
+        <h1>Időpontfoglalás</h1>
+        <!-- Itt lesz a naptárnézet -->
         <div id="calendar">
             <!-- This will be populated dynamically using JavaScript -->
         </div>
         
         <!-- Time booking section -->
         <div id="booking-section">
-            <h2>Book an Appointment</h2>
-            <p>Select a free time slot:</p>
+            <h2>Válassz!</h2>
             <select id="time-slots">
                 <!-- Options will be populated dynamically -->
             </select>
-            <button id="book-btn">Book Appointment</button>
+            <button id="book-btn">Foglalás</button>
         </div>
         
         <!-- Doctor's interface (hidden by default) -->
         <div id="doctor-interface" style="display: none;">
-            <h2>Doctor's Interface</h2>
-            <p>View and modify appointments:</p>
+            <h2>Orvosi belépés</h2>
+            <p>Foglalások kezelése/módosítása:</p>
             <ul id="appointments-list">
                 <!-- Appointments will be listed here -->
             </ul>
@@ -74,7 +71,7 @@
     <footer>
         <p>&copy; 2024 KOPE Állatorvosi Rendelő</p>
     </footer>
-    <script src="hamburger.js"></script>
-    <script src="booking.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/booking.js"></script>
 </body>
 </html>

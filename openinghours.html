@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KOPE Állatorvosi Rendelő</title>
+    <title>KOPE Állatorvosi Rendelő - Kapcsolat</title>
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main_hours.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,32 +16,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
-        <img class="logo" src="images/logo.png" alt="logo">
-        <div class="site-name">KOPE ÁLLATORVOSI RENDELŐ</div>
-        <nav class="navbar">
-            <ul  class="nav_links">
-                <li><a href="index.html">Kezdőlap</a></li>
-                <li><a href="about.html">Bemutatkozás</a></li>
-                <li><a href="prices.html">Árak</a></li>
-                <li><a href="openinghours.html">Nyitvatartás</a></li>
-                <li><a href="contact.html">Kapcsolat</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <div class="left-side">
+                <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+                <div class="site-name">KOPE ÁLLATORVOSI RENDELŐ</div>
+            </div>
+            <nav class="navbar">
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav_links" id="nav_links">
+                    <li><a href="index.html">Kezdőlap</a></li>
+                    <li><a href="about.html">Bemutatkozás</a></li>
+                    <li><a href="openinghours.html">Nyitvatartás</a></li>
+                    <li><a href="contact.html">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="content">
-          <div class="opening-hours">
-            <p class="opening-hours-title">Rendelési idő:</p>
-          </div>
+      <div class="opening-hours-container">
+        <div class="text-holder">
+          <h2>Nyitvatartás</h2>
+          <p>A legfrissebb nyitvatartási időpontokért</p>
+          <p>látogass el Facebook oldalunkra!</p>
+          <button class="fb-button" onclick="redirectToPage()">
+            <div><img class="fb-logo-pic" src="images/fb_logo.png"></div>
+            <div>Kattints ide!</button></div>
         </div>
+        <ul id="opening-hours-list">
+          <!-- Opening hours will be dynamically inserted here -->
+        </ul>
     </main>
     <footer>
         <p>&copy; 2024 KOPE Állatorvosi Rendelő</p>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="scripts/fblink.js"></script>
 </body>
 </html>
