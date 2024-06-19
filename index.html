@@ -8,34 +8,32 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/main_first.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto+Condensed:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-content">
+  <header>
+    <div class="header-content">
+        <div class="left-side">
             <img class="logo" src="images/logo.png" alt="logo">
             <div class="site-name">KOPE ÁLLATORVOSI RENDELŐ</div>
-            <nav class="navbar">
-                <ul  class="nav_links">
-                    <li><a href="index.html">Kezdőlap</a></li>
-                    <li><a href="about.html">Bemutatkozás</a></li>
-                    <li><a href="prices.html">Árak</a></li>
-                    <li><a href="openinghours.html">Nyitvatartás</a></li>
-                    <li><a href="contact.html">Kapcsolat</a></li>
-                </ul>
-            </nav>
-            <div class="search-bar-box">
-                <input class="search-bar" type="text" placeholder="Search...">
-            </div>
         </div>
-    </header>
+        <nav class="navbar">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav_links" id="nav_links">
+                <li><a href="index.html">Kezdőlap</a></li>
+                <li><a href="about.html">Bemutatkozás</a></li>
+                <li><a href="openinghours.html">Nyitvatartás</a></li>
+                <li><a href="contact.html">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
     <main>
         <div class="content">
             <div class="welcome-text">
@@ -43,13 +41,14 @@
                 <p>Üdvözlöm Önöket</p>
                 <p>a rendelőm honlapján!</p>
             </div>
-            <button onclick="window.location.href='#appointment';"> Foglaljon időpontot </button>
+            <button onclick="window.location.href='#appointment';">Foglaljon időpontot</button>
             <img src="images/bckgrnd.png" alt="Background Image" class="first-page-pic">
         </div>
     </main>
     <footer>
         <p>&copy; 2024 KOPE Állatorvosi Rendelő</p>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>
+
