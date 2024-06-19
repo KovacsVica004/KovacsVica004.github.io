@@ -60,7 +60,7 @@ button:hover {
   }
 
   .first-page-pic {
-    top: 150px; /* Push the image down */
+    top: 200px; /* Push the image down */
     left: 50%; /* Center the image horizontally */
     transform: translateX(-50%); /* Centering adjustment */
     width: 80%; /* Adjust the size */
