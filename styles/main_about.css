@@ -13,22 +13,21 @@ body {
   box-sizing: border-box;
   padding-bottom: 200px;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: .5vw;
+  grid-row-gap: 2vw;
   justify-content: center;
   align-items: center;
   background-color: rgb(255, 255, 255);
 }
 
-.content-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 40px;
+.content-grid-item:nth-child(3) {
+  grid-column: 1 / span 2; /* Span across both columns */
+  grid-row: 2 / span 1; /* Place in the second row */
 }
 
 .profilepic {
-  margin-top: 20px;
+  margin-top: 1vw;
   max-width: 80%;
 }
 
@@ -42,11 +41,37 @@ body {
   padding: 10px;
   margin-top: 0;
   text-align: center;
+  font-size: 1.2vw;
 }
 
 .title-about {
-  margin-bottom: 50px;
-  font-size: 36px;
+  margin-bottom: 2vw;
+  font-size: 2.5vw;
   font-weight: 700;
   color: rgb(30, 40, 50);
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  body {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profilepic {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-text p {
+    font-size: 14px;
+  }
+  .title-about {
+    font-size: 20px;
+  }
 }

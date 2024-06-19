@@ -1,0 +1,63 @@
+.opening-hours-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.opening-hours-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  margin-top: 200px;
+}
+
+.text-holder {
+  text-align: center;
+  padding-top: 3vw;
+}
+
+.text-holder h2, p {
+  padding-bottom: 1vw;
+}
+
+.fb-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.fb-logo-pic {
+  height: 5vw;
+  margin-right: 2.5vw;
+}
+
+.opening-hours-container button {
+  padding: 20px 30px;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2989f0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
