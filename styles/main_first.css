@@ -30,6 +30,7 @@ body {
   bottom: 0;
   left: 80vh;
   z-index: -1;
+  transition: all 2s ease;
 }
 
 .content button {
@@ -57,5 +58,20 @@ button:hover {
     margin-left: 0;
     margin-right: 0;
   }
+
+  .first-page-pic {
+    top: 150px; /* Push the image down */
+    left: 50%; /* Center the image horizontally */
+    transform: translateX(-50%); /* Centering adjustment */
+    width: 80%; /* Adjust the size */
+    height: auto; /* Maintain aspect ratio */
+    opacity: .3;
+  }
+
+  .header-content {
+    position: relative;
+    z-index: 1001; /* Ensure the header is above the image */
+  }
+
 }
 
