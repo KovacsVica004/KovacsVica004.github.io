@@ -2,10 +2,6 @@ main {
   overflow: auto;
 }
 
-body {
-  margin-bottom: 100px;
-}
-
 .content {
   padding-right: 8%;
   padding-left: 8%;

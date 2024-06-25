@@ -90,8 +90,10 @@ header {
   .hamburger {
     display: flex;
   }
+
+  .show {
+    display: flex !important;
+  }
+  
 }
 
-.show {
-  display: flex !important;
-}
