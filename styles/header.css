@@ -109,7 +109,7 @@ header {
   display: none;
   position: absolute;
   top: 30px;
-  left: 10px;
+  right: 0px;
 }
 
 .language-menu ul li {
