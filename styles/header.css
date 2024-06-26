@@ -93,9 +93,11 @@ header {
   padding: 0;
   line-height: 1;
 }
+
 .language-menu {
   position: relative;
 }
+
 .language-menu ul {
   margin: 0;
   padding: 0;
@@ -156,6 +158,26 @@ header {
 
   .show {
     display: flex !important;
+  }
+
+  .selected-language {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+  }
+  
+  .sel-lang-pic {
+    height: 20px;
+  }
+  
+  .sel-lang-text {
+    display: none;
   }
   
 }
