@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +19,7 @@
 
 </head>
 <body>
+  <div id="big-container">
     <header>
       <div class="header-content">
           <div class="left-side">
@@ -32,15 +33,35 @@
                   <span></span>
               </div>
               <ul class="nav_links" id="nav_links">
-                  <li><a href="index.html">Kezdőlap</a></li>
-                  <li><a href="about.html">Bemutatkozás</a></li>
-                  <li><a href="openinghours.html">Nyitvatartás</a></li>
-                  <li><a href="contact.html">Kapcsolat</a></li>
+                  <li><a href="index.html" id="kezdolap">Kezdőlap</a></li>
+                  <li><a href="about.html" id="bemutatkozas">Bemutatkozás</a></li>
+                  <li><a href="openinghours.html" id="nyitvatartas">Nyitvatartás</a></li>
+                  <li><a href="contact.html" id="kapcsolat">Kapcsolat</a></li>
               </ul>
+              <div class="language-menu">
+                  <div class="selected-language">
+                    <img id="flag" class="sel-lang-pic" src="images/flag_hu.png">
+                    <p id="flagtext" class="sel-lang-text">HU</p>
+                  </div>
+                  <ul>
+                      <li>
+                          <img class="sel-lang-pic" src="images/flag_hu.png">
+                          <a href="#" class="HU" onclick="changeLanguage('hu'); return false;">HU</a>
+                      </li>
+                      <li>
+                          <img class="sel-lang-pic" src="images/flag_eng.png">
+                          <a href="#" class="ENG" onclick="changeLanguage('eng'); return false;">ENG</a>
+                      </li>
+                      <li>
+                          <img class="sel-lang-pic" src="images/flag_de.png">
+                          <a href="#" class="DE" onclick="changeLanguage('de'); return false;">DE</a>
+                      </li>
+                  </ul>
+              </div>
           </nav>
       </div>
     </header>
-    <main>
+    <main id="main">
         <div class="content">
 
           <div class="content-grid-item">
@@ -51,10 +72,10 @@
 
           <div class="content-grid-item">
             <div class="about-text">
-              <h2 class="title-about">Dr. Kovács Péter</h2>
-              <p>Üdvözlöm Önöket rendelőm honlapján!</p>
-              <p>A rendelőm 2002 óta működik Siófokon.</p>
-              <p>Elsősorban ambuláns betegellátást végzek. A gyógyításban főként a modern orvostudomány
+              <h2 id="about_title" class="title-about">Dr. Kovács Péter</h2>
+              <p id="about_i">Üdvözlöm Önöket rendelőm honlapján!</p>
+              <p id="about_ii">A rendelőm 2002 óta működik Siófokon.</p>
+              <p id="about_iii">Elsősorban ambuláns betegellátást végzek. A gyógyításban főként a modern orvostudomány
                 vívmányait használom, de hiszek abban, hogy a szervezet öngyógyító ereje (különösen
                 állatoknál) igen hatékony, ezért alternatív irányokat (homeopátia) is szívesen alkalmazok.</p>
             </div>
@@ -62,7 +83,7 @@
 
           <div class="content-grid-item">
             <div class="about-text">
-              <p>Munkám során legfontosabb célom a gyógyító munka, de lényegesnek tartom megjegyezni,
+              <p id="about_j">Munkám során legfontosabb célom a gyógyító munka, de lényegesnek tartom megjegyezni,
                 hogy az állatok helyes tartása, táplálása, a betegségek megelőzése (pl. védőoltásokkal vagy az
                 élősködők irtásával) sokkal olcsóbb és egyszerűbb megoldás a gazda és állata számára, mint a
                 kialakult bajok gyógyíttatása.</p>
@@ -77,10 +98,10 @@
           
           <div class="content-grid-item">
             <div class="about-text">
-              <p>Ezért kérem, hogy ne csak állatuk betegsége esetén keressenek
+              <p id="about_jj">Ezért kérem, hogy ne csak állatuk betegsége esetén keressenek
                 meg, hanem bármilyen, az állatot érintő kérdéssel kapcsolatban forduljanak hozzám
                 bizalommal.</p>
-                <p>Az ambuláns betegellátáson kívül vállalok ivartalanítási-, kisebb lágysebészeti műtéteket,
+                <p id="about_jjj">Az ambuláns betegellátáson kívül vállalok ivartalanítási-, kisebb lágysebészeti műtéteket,
                 illetve fogkő-eltávolítást. Az ilyen beavatkozásokat a rendeléstől időben elkülönítve, telefonos
                 egyeztetés alapján végzem.</p>
             </div>
@@ -89,9 +110,24 @@
         </div>
 
     </main>
-    <footer>
-        <p>&copy; 2024 KOPE Állatorvosi Rendelő</p>
-    </footer>
-    <script src="scripts/hamburger.js"></script>
+  </div>
+  <footer id="footer">
+    <div class="footer-container">
+      <div class="footer-row">
+          <div class="footer-col">
+              <h4></h4>
+              <hr class="footer-line">
+              <ul>
+                  <li><img class="footer-contact-image" src="images/phonelogo.svg"><a href="#"> +36 30 4209499</a></li>
+                  <li><img class="footer-contact-image" src="images/emaillogo.svg"><a href="#"> kovacspl@t-online.hu</a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=100063752821688"><img class="footer-fb-image" src="images/fb_logo_white.png"></a></li>
+                  <li><p>&copy; 2024 KOPE Állatorvosi Rendelő</p></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  </footer>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/lang.js"></script>
 </body>
 </html>

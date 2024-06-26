@@ -1,12 +1,82 @@
-footer {
+#footer {
   background-color: #8357b0;
   color: #ffffff;
   text-align: center;
-  padding: 10px 0;
-  position: fixed;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+
+.footer-row{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-col {
   width: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  opacity: .4;
+  font-weight: 600;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+
+.footer-col ul {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-col ul li {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+
+.footer-col ul li p {
   font-size: 12px;
+  opacity: .5;
+}
+
+.footer-contact-image {
+  height: 20px;
+}
+
+.footer-fb-image {
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.footer-line {
+  background-color: #ffffff;
+  opacity: .5;
+  border: none;
+  height: 1px;
 }

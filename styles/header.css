@@ -70,6 +70,69 @@ header {
   color: rgb(71, 16, 117);
 }
 
+.selected-language {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin: 0 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgb(154, 108, 199);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, .1);
+}
+
+.sel-lang-pic {
+  height: 20px;
+}
+
+.sel-lang-text {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+.language-menu {
+  position: relative;
+}
+.language-menu ul {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  border: 1px solid #f8f8f8;
+  color: rgb(131, 87, 176);
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
+  border-radius: 2px;
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.language-menu ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+}
+
+.language-menu ul li a {
+  width: 40px;
+  display: block;
+  text-decoration: none;
+}
+
+.language-menu ul li:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.language-menu:hover ul {
+  display: block;
+}
+
 @media (max-width: 768px) {
   .nav_links {
     display: none;

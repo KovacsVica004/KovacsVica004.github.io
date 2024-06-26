@@ -8,5 +8,18 @@
 body {
   background-color: rgb(251, 247, 254);
   margin: 0;
-  padding: 20px 72px;
+  margin-bottom: 100px;
+}
+
+html, body {
+  height: 100%;
+}
+
+#big-container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  
 }

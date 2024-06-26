@@ -12,10 +12,6 @@ ul {
   padding: 0;
 }
 
-li {
-  margin-bottom: 10px;
-}
-
 .opening-hours-item {
   display: flex;
   justify-content: space-between;
@@ -28,6 +24,11 @@ main {
 .text-holder {
   text-align: center;
   padding-top: 3vw;
+}
+
+.nyitvatartas-text {
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .text-holder h2, p {

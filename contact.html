@@ -18,55 +18,112 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <div class="left-side">
-                <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
-                <div class="site-name">KOPE ÁLLATORVOSI RENDELŐ</div>
-            </div>
-            <nav class="navbar">
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <div id="big-container">
+        <header>
+            <div class="header-content">
+                <div class="left-side">
+                    <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+                    <div class="site-name">KOPE ÁLLATORVOSI RENDELŐ</div>
                 </div>
-                <ul class="nav_links" id="nav_links">
-                    <li><a href="index.html">Kezdőlap</a></li>
-                    <li><a href="about.html">Bemutatkozás</a></li>
-                    <li><a href="openinghours.html">Nyitvatartás</a></li>
-                    <li><a href="contact.html">Kapcsolat</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="content-contact">
-            <div class="contact-details">
-                <h2>Kapcsolat</h2>
-                <p>Telefon: +36 30 4209499</p>
-                <p>Email: kovacspl@t-online.hu</p>
-                <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100063752821688" target="_blank">Kopé Állatorvosi Rendelő</a></p>
+                <nav class="navbar">
+                    <div class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav_links" id="nav_links">
+                        <li><a href="index.html" id="kezdolap">Kezdőlap</a></li>
+                        <li><a href="about.html" id="bemutatkozas">Bemutatkozás</a></li>
+                        <li><a href="openinghours.html" id="nyitvatartas">Nyitvatartás</a></li>
+                        <li><a href="contact.html" id="kapcsolat">Kapcsolat</a></li>
+                    </ul>
+                    <div class="language-menu">
+                        <div class="selected-language">
+                            <img id="flag" class="sel-lang-pic" src="images/flag_hu.png">
+                            <p id="flagtext" class="sel-lang-text">HU</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <img class="sel-lang-pic" src="images/flag_hu.png">
+                                <a href="#" class="HU" onclick="changeLanguage('hu'); return false;">HU</a>
+                            </li>
+                            <li>
+                                <img class="sel-lang-pic" src="images/flag_eng.png">
+                                <a href="#" class="ENG" onclick="changeLanguage('eng'); return false;">ENG</a>
+                            </li>
+                            <li>
+                                <img class="sel-lang-pic" src="images/flag_de.png">
+                                <a href="#" class="DE" onclick="changeLanguage('de'); return false;">DE</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <div class="map-container">
-                <h2>Elhelyezkedés</h2>
-                <p>Klapka György utca 51, Siófok, Hungary</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.934298726687!2d18.067111399999998!3d46.9040105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769c0932af81595%3A0xb5c14e13bef309dc!2sDr.Kov%C3%A1cs%20P%C3%A9ter%20%C3%81llatorvos%20%2F%20Tierarzt!5e0!3m2!1sen!2shu!4v1718755308813!5m2!1sen!2shu"
-                    width="600"
-                    height="450"
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-                <p><a href="https://maps.app.goo.gl/pFTg9D4T2FuDpNz19" target="_blank">Nagyításhoz kattintson ide</a></p>
+        </header>
+        <main id="main">
+            <div class="content-contact">
+                <div class="contact-details">
+                    <h2 id="contact_title">Kapcsolat</h2>
+                        <div class="contact-details-line">
+                            <div class="contact-details-line-picture">
+                                <img src="images/phonelogo_black.svg">
+                            </div>
+                            <div class="contact-details-line-text">
+                                <p>+36 30 4209499</p>
+                            </div>
+                        </div>
+                        <div class="contact-details-line">
+                            <div class="contact-details-line-picture">
+                                <img src="images/emaillogo_black.svg">
+                            </div>
+                            <div class="contact-details-line-text">
+                                <p>kovacspl@t-online.hu</p>
+                            </div>
+                        </div>
+                        <div class="contact-details-line">
+                            <div class="contact-details-line-picture">
+                                <img src="images/fb_logo.png">
+                            </div>
+                            <div class="contact-details-line-text">
+                                <p><a id="contact_fb_name" href="https://www.facebook.com/profile.php?id=100063752821688" target="_blank">Kó-Pé Állatorvosi Rendelő</a></p>
+                            </div>
+                        </div>
+                </div>
+                <div class="map-container">
+                    <h2 id="contact_maps">Elhelyezkedés</h2>
+                    <p id="contact_address">Klapka György utca 51, Siófok, Magyarország</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2725.934298726687!2d18.067111399999998!3d46.9040105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769c0932af81595%3A0xb5c14e13bef309dc!2sDr.Kov%C3%A1cs%20P%C3%A9ter%20%C3%81llatorvos%20%2F%20Tierarzt!5e0!3m2!1sen!2shu!4v1718755308813!5m2!1sen!2shu"
+                        width="600"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <p><a id="contact_maps_zoom" href="https://maps.app.goo.gl/pFTg9D4T2FuDpNz19" target="_blank">Nagyításhoz kattintson ide</a></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4></h4>
+                    <hr class="footer-line">
+                    <ul>
+                        <li><img class="footer-contact-image" src="images/phonelogo.svg"><a href="#"> +36 30 4209499</a></li>
+                        <li><img class="footer-contact-image" src="images/emaillogo.svg"><a href="#"> kovacspl@t-online.hu</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100063752821688"><img class="footer-fb-image" src="images/fb_logo_white.png"></a></li>
+                        <li><p>&copy; 2024 KOPE Állatorvosi Rendelő</p></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </main>
-    <footer>
-        <p>&copy; 2024 KOPE Állatorvosi Rendelő</p>
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/fblink.js"></script>
+    <script src="scripts/lang.js"></script>
 </body>
 </html>
