@@ -1,39 +1,71 @@
+.hours-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 210%;
+  transition: all .2s ease;
+  opacity: .05;
+}
+
+.hours-content-full {
+  display: block;
+  padding-top: 180px;
+  padding-bottom: 200px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
 .opening-hours-container {
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 2vw;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
-}
-
-.opening-hours-item {
-  display: flex;
-  justify-content: space-between;
 }
 
 main {
-  margin-top: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .text-holder {
   text-align: center;
-  padding-top: 3vw;
+
+  margin: 0 auto;
+  border-top: 2px solid black;    /* Add top border */
+  border-bottom: 2px solid black;
+}
+
+#nyitvatartas_fontos_text {
+  font-size: 18px;
+  font-weight: 600;
+  color: red;
 }
 
 .nyitvatartas-text {
-  max-width: 400px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 4vw;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.text-holder h2, p {
+.nyitvatartas-text-column {
+  text-align: left;
+}
+
+.nyitvatartas-text-column li {
   padding-bottom: 1vw;
 }
+
+#hetfo, #kedd, #szerda, #csutortok, #pentek, #szombat, #vasarnap {
+  font-weight: 500;
+}
+
 
 .fb-button {
   display: flex;
@@ -43,22 +75,83 @@ main {
 }
 
 .fb-logo-pic {
-  height: 5vw;
-  margin-right: 2.5vw;
+  height: 25px;
+  margin-right: 10px;
 }
 
 .opening-hours-container button {
-  padding: 20px 30px;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
-  font-size: 16px;
+  padding: 5px 10px;
+  font-size: 14px;
   color: #fff;
   background-color: #2989f0;
   border: none;
-  border-radius: 40px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
 button:hover {
   background-color: #0056b3;
 }
+
+.fehervar-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0 auto;
+  gap: 0.1rem;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.fehervar-container p {
+  font-weight: 500;
+  color: rgb(70, 70, 70);
+}
+
+.fehervar-container a {
+  text-decoration: none;
+  font-variant: small-caps;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px; /* Adjust the value to control the roundness */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values to control the shadow */
+  padding: 10px 20px;
+  font-weight: 600;
+  color: rgb(41, 41, 41);
+  background-color: #fff;
+}
+
+.fehervar-container a img {
+  height: 30px;
+}
+
+#kornyeki {
+  margin-bottom: 18px;
+  margin-top: 12px;
+  font-weight: 500;
+  color: rgb(70, 70, 70);
+}
+
+#opening-hours-list {
+  margin-left: 12vw;
+  list-style-type: disc;
+  font-size: 15px;
+}
+
+#opening-hours-list li {
+  padding-bottom: 6px;
+  padding-left: 10px;
+}
+
+@media (max-width: 800px) {
+  main {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .hours-background {
+    opacity: 0;
+  }
+}
+

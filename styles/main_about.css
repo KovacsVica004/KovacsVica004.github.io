@@ -10,22 +10,25 @@ main {
   box-sizing: border-box;
   padding-bottom: 200px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: .5vw;
   grid-row-gap: 2vw;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
-.content-grid-item:nth-child(3) {
-  grid-column: 1 / span 2; /* Span across both columns */
-  grid-row: 2 / span 1; /* Place in the second row */
+.content-grid-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vw;
 }
 
 .profilepic {
   margin-top: 1vw;
-  max-width: 80%;
+  max-width: 30vw;
+  border-radius: 40px;
 }
 
 .profilepic img {
@@ -49,6 +52,11 @@ main {
   text-align: center;
 }
 
+.content-grid-item-pic img {
+  height: 30vw;
+  border-radius: 10px;
+}
+
 @media (max-width: 800px) {
   .content {
     display: flex;
@@ -61,6 +69,16 @@ main {
   }
   .profilepic {
     margin: 0 auto;
+    max-width: 50vw;
+  }
+  .content-grid-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 2vw;
+  }
+  .content-grid-item-pic img {
+    width: 70vw;
+    height: auto;
   }
 }
 
