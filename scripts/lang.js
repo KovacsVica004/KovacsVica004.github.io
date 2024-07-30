@@ -101,7 +101,7 @@ function translatePageContent(language) {
           about_j: 'In my work, my main aim is to cure, but I think it is important to note that keeping animals well, feeding them and preventing disease (e.g. by vaccination or parasite control) is a much cheaper and simpler solution for the owner and his animal than curing the problems that arise.',
           about_jj: 'Therefore, please do not only contact me if your pet is ill, but also if you have any questions concerning your pet.',
           //hours page
-          nyitvatartas_fontos_text: 'Due to holidays the practice is closed from 02.09.2024. to 06.09.2024.',
+          nyitvatartas_fontos_text: 'Due to holidays we are closed from 02.09.2024. to 06.09.2024.',
           nyitvatartas_text: "For the latest opening hours, visit our Facebook page!",
           nyitvatartas_click: "You can also view the current opening hours on Facebook!",
           hetfo: 'Monday:',
