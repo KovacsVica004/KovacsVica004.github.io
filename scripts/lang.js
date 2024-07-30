@@ -62,7 +62,7 @@ function translatePageContent(language) {
           about_j: 'Munkám során legfontosabb célom a gyógyító munka, de lényegesnek tartom megjegyezni, hogy az állatok helyes tartása, táplálása, a betegségek megelőzése (pl. védőoltásokkal vagy az élősködők irtásával) sokkal olcsóbb és egyszerűbb megoldás a gazda és állata számára, mint a kialakult bajok gyógyíttatása.',
           about_jj: 'Ezért kérem, hogy ne csak állatuk betegsége esetén keressenek meg, hanem bármilyen, az állatot érintő kérdéssel kapcsolatban forduljanak hozzám bizalommal.',
           //hours page
-          nyitvatartas_fontos_text: 'A rendelő 2024.08.01-08.06-ig zárva tart!',
+          nyitvatartas_fontos_text: 'Szabadság miatt 2024.09.02 - 09.06-ig a rendelés szünetel!',
           nyitvatartas_text: "A legfrissebb nyitvatartási időpontokért látogass el Facebook oldalunkra!",
           nyitvatartas_click: "Aktuális nyitvatartásunkat facebookon is megnézheted!",
           hetfo: 'Hétfő:',
@@ -100,7 +100,7 @@ function translatePageContent(language) {
           about_j: 'In my work, my main aim is to cure, but I think it is important to note that keeping animals well, feeding them and preventing disease (e.g. by vaccination or parasite control) is a much cheaper and simpler solution for the owner and his animal than curing the problems that arise.',
           about_jj: 'Therefore, please do not only contact me if your pet is ill, but also if you have any questions concerning your pet.',
           //hours page
-          nyitvatartas_fontos_text: 'We are closed from 2024.08.01-08.06!',
+          nyitvatartas_fontos_text: 'Due to holidays the practice is closed from 02.09.2024. to 06.09.2024.',
           nyitvatartas_text: "For the latest opening hours, visit our Facebook page!",
           nyitvatartas_click: "You can also view the current opening hours on Facebook!",
           hetfo: 'Monday:',
@@ -138,7 +138,7 @@ function translatePageContent(language) {
           about_j: 'Mein Hauptziel bei meiner Arbeit ist es, auf eine Heilung hinzuarbeiten, aber ich halte es für wichtig, darauf hinzuweisen, dass die Gesunderhaltung der Tiere, ihre Fütterung und die Vorbeugung von Krankheiten (z. B. durch Impfung oder Parasitenbekämpfung) eine viel billigere und einfachere Lösung für den Besitzer und sein Tier ist als die Heilung der auftretenden Probleme.',
           about_jj: 'Bitte wenden Sie sich daher nicht nur an mich, wenn Ihr Tier krank ist, sondern auch, wenn Sie Fragen zu Ihrem Tier haben.',
           //hours page
-          nyitvatartas_fontos_text: 'Wir sind vom 01.08.2024 bis 06.08. geschlossen!',
+          nyitvatartas_fontos_text: 'Wegen Urlaub ist die Praxis von 02.09.2024. bis 06.09.2024. geschlossen!',
           nyitvatartas_text: "Die aktuellen Öffnungszeiten finden Sie auf unserer Facebook-Seite!",
           nyitvatartas_click: "Die aktuellen Öffnungszeiten auch auf Facebook!",
           hetfo: 'Montag:',
