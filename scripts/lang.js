@@ -138,7 +138,7 @@ function translatePageContent(language) {
           eletut_15: 'Siófok, Klapka Street Veterinary Clinic (independent veterinarian)',
           vissza: 'Back',
           //hours page
-          nyitvatartas_fontos_text: 'We will be closed on Monday and Tuesday, October 28-29, 2024.',
+          nyitvatartas_fontos_text: 'We are closed on Monday and Tuesday, October 28-29, 2024.',
           nyitvatartas_text: "For the latest opening hours, visit our Facebook page!",
           nyitvatartas_click: "You can also view the current opening hours on Facebook!",
           hetfo: 'Monday:',
