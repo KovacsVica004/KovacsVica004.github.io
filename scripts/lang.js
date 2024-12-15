@@ -81,7 +81,7 @@ function translatePageContent(language) {
           eletut_15: 'Siófok, Klapka utcai állatorvosi rendelő (magánállatorvos)',
           vissza: 'Vissza',
           //hours page
-          nyitvatartas_fontos_text: 'Nyitvatartás a decemberben: 16. (hétfő), 17. (kedd), 19. (csütörtök), 20. (péntek), 27. (péntek)',
+          nyitvatartas_fontos_text: 'Nyitvatartás decemberben: 16. (hétfő), 17. (kedd), 19. (csütörtök), 20. (péntek), 27. (péntek)',
           nyitvatartas_text: "A legfrissebb nyitvatartási időpontokért látogass el Facebook oldalunkra!",
           nyitvatartas_click: "Aktuális nyitvatartásunkat facebookon is megnézheted!",
           hetfo: 'Hétfő:',
