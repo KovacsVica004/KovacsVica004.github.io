@@ -81,7 +81,7 @@ function translatePageContent(language) {
           eletut_15: 'Siófok, Klapka utcai állatorvosi rendelő (magánállatorvos)',
           vissza: 'Vissza',
           //hours page
-          nyitvatartas_fontos_text: 'Következő rendelési napok: január 2. (csütörtök), január 3. (péntek).',
+          nyitvatartas_fontos_text: '',
           nyitvatartas_text: "A legfrissebb nyitvatartási időpontokért látogass el Facebook oldalunkra!",
           nyitvatartas_click: "Aktuális nyitvatartásunkat facebookon is megnézheted!",
           hetfo: 'Hétfő:',
@@ -139,7 +139,7 @@ function translatePageContent(language) {
           eletut_15: 'Siófok, Klapka Street Veterinary Clinic (independent veterinarian)',
           vissza: 'Back',
           //hours page
-          nyitvatartas_fontos_text: 'Next opening days: January 2nd (Thursday), January 3rd (Friday).',
+          nyitvatartas_fontos_text: '',
           nyitvatartas_text: "For the latest opening hours, visit our Facebook page!",
           nyitvatartas_click: "You can also view the current opening hours on Facebook!",
           hetfo: 'Monday:',
@@ -197,7 +197,7 @@ function translatePageContent(language) {
           eletut_15: 'Siófok, Tierarztpraxis Ko-Perfekt',
           vissza: 'Zurück',
           //hours page
-          nyitvatartas_fontos_text: 'Nächste Öffnungstage: 2. Januar (Donnerstag), 3. Januar (Freitag).',
+          nyitvatartas_fontos_text: '',
           nyitvatartas_text: "Die aktuellen Öffnungszeiten finden Sie auf unserer Facebook-Seite!",
           nyitvatartas_click: "Die aktuellen Öffnungszeiten auch auf Facebook!",
           hetfo: 'Montag:',
