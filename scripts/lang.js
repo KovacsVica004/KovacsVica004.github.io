@@ -139,7 +139,7 @@ function translatePageContent(language) {
           eletut_15: 'Siófok, Klapka Street Veterinary Clinic (independent veterinarian)',
           vissza: 'Back',
           //hours page
-          nyitvatartas_fontos_text: 'Holiday opening hours:<br>Dec. 22. (Monday): 16:30 - 18:30<br>Dec. 29. (Monday): 16:30 - 18:30<br>Dec. 30. (Tuesday): 15:30 - 17:30<br>Jan. 02. (Friday): 16:30 - 18:30<br>',
+          nyitvatartas_fontos_text: 'Holiday opening hours: Dec. 22. (Monday): 16:30 - 18:30 Dec. 29. (Monday): 16:30 - 18:30 Dec. 30. (Tuesday): 15:30 - 17:30 Jan. 02. (Friday): 16:30 - 18:30',
           nyitvatartas_text: "For the latest opening hours, visit our Facebook page!",
           nyitvatartas_click: "You can also view the current opening hours on Facebook!",
           hetfo: 'Monday:',
