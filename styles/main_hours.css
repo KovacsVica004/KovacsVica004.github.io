@@ -38,8 +38,15 @@ main {
   border-bottom: 2px solid black;
 }
 
-#nyitvatartas_fontos_text, #nyitvatartas_fontos_text2, #nyitvatartas_fontos_text3, #nyitvatartas_fontos_text4, #nyitvatartas_fontos_text5 {
+#nyitvatartas_fontos_text {
   font-size: 18px;
+  font-weight: 600;
+  color: red;
+}
+
+#nyitvatartas_fontos_text2, #nyitvatartas_fontos_text3, #nyitvatartas_fontos_text4, #nyitvatartas_fontos_text5 {
+  padding-left: 10px;
+  font-size: 16px;
   font-weight: 600;
   color: red;
 }
