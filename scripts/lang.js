@@ -64,7 +64,7 @@ function translatePageContent(language) {
           eletutButton: 'Életút',
           //eletut_page
           eletut_title: 'ÉLETÚT',
-          eletut_1: 'Debrecen, KLTE Gyakorló Gimnáziuma',
+          eletut_1: 'Debrecen, ELTE Gyakorló Gimnáziuma',
           eletut_2: 'Debrecen, Állategészségügyi Állomás Állatkórháza (gyakornok)',
           eletut_3: 'Állatorvostudományi Egyetem',
           eletut_4: 'USA, Cleveland, Emergency Pet Clinic (gyakornok)',
